@@ -74,9 +74,9 @@ export default function Inicio() {
         </nav>
       </div>
       <div className="d-flex flex-direction-between justify-content-around flex-wrap">
-        <div className="my-3"><Perfil /></div>
-        <div className="my-3"><Features /></div>
-        <div className="my-3"><AboutMe/></div>
+        <div className="my-3 order-xl-1"><Perfil /></div>
+        <div className="my-3 order-last order-xl-2"><Features /></div>
+        <div className="my-3 order-xl-2"><AboutMe/></div>
       </div>
     </Fragment>
   );
