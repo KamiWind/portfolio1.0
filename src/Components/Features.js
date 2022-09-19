@@ -1,7 +1,7 @@
 import React from "react";
 import Perfilpng from "../Images/Perfil.webp";
 
-import { BsInstagram } from "react-icons/bs"
+import { BsInstagram, BsCodeSlash } from "react-icons/bs"
 import { GrLinkedin } from "react-icons/gr"
 
 import Card from "react-bootstrap/Card";
@@ -11,7 +11,7 @@ import Col from "react-bootstrap/Col";
 export default function Features() {
   return (
     <div>
-      <div class="card text-center">
+      <div class="card text-center w-100">
         <div class="card-header d-flex justify-content-start">
           <div class="border-end w-50 d-flex justify-content-around align-items-center">
             <Card.Img
@@ -23,11 +23,11 @@ export default function Features() {
             <Badge bg="dark">
               <div class="text-start">
                 <p class="fs-6 fw-lighter">Glaucio Castilho</p>
-                Web Developer
+                Web Developer <BsCodeSlash/>
               </div>
             </Badge>
           </div>
-          <div class="border-end w-50 d-flex justify-content-around align-items-center">
+          <div class=" w-50 d-flex justify-content-around align-items-center">
           <Badge bg="dark text-start p-2">
             <a class="bg-transparent text-decoration-none fw-semibold fs-6" href="https://www.instagram.com/glauciocastilho1/" target="_blank"><BsInstagram/> Instagram</a>
             <br/>

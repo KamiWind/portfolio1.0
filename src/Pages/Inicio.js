@@ -7,6 +7,8 @@ import Perfil from "../Components/Perfil";
 import Features from "../Components/Features";
 import AboutMe from "../Components/AboutMe";
 
+import Stack from "react-bootstrap/Stack"
+
 
 
 export default function Inicio() {
@@ -71,10 +73,10 @@ export default function Inicio() {
           </ul>
         </nav>
       </div>
-      <div class="d-flex justify-content-between flex-wrap p-5 w-100">
-        <Perfil />
-        <Features />
-        <AboutMe />
+      <div className="d-flex flex-direction-between justify-content-around flex-wrap">
+        <div className="my-3"><Perfil /></div>
+        <div className="my-3"><Features /></div>
+        <div className="my-3"><AboutMe/></div>
       </div>
     </Fragment>
   );
