@@ -2,13 +2,13 @@ import React from "react";
 import Perfilpng from "../Images/Perfil.webp";
 
 import { BsInstagram, BsCodeSlash } from "react-icons/bs"
-import { GrLinkedin } from "react-icons/gr"
+import { GrLinkedin, GrMap } from "react-icons/gr"
 
 import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
-import Col from "react-bootstrap/Col";
 
-export default function Features(props) {
+
+export default function Features() {
   return (
     <div>
       <div class="card text-center w-100">
@@ -23,9 +23,9 @@ export default function Features(props) {
             <Badge bg="dark">
               <div class="text-start">
                 <p class="fs-6 fw-lighter">
-                  {props.Name}
+                Glaucio Castilho
                 </p>
-                {props.NameDescription} <BsCodeSlash/>
+                Dev Web <BsCodeSlash/>
               </div>
             </Badge>
           </div>
@@ -38,12 +38,15 @@ export default function Features(props) {
           </Badge>
           </div>
         </div>
-        <div class="card-body">
+        <div class="card-body w-100">
           <h5 class="card-title">
-            {props.Description}
+          Destaque
           </h5>
           <p class="card-text">
-            {props.SubDescription}
+          Digite uma descrição aqui! Digite uma descrição aqui! Digite uma descrição aqui!
+            Digite uma descrição aqui! Digite uma descrição aqui! Digite uma descrição aqui!
+            Digite uma descrição aqui! Digite uma descrição aqui! Digite uma descrição aqui!
+            Digite uma descrição aqui! Digite uma descrição aqui! Digite uma descrição aqui!
           </p>
           <a href="Contato" class="btn btn-primary">
             Contato

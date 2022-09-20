@@ -12,12 +12,18 @@ export default function AboutMe(props) {
           <Card.Img variant="top" src={Perfil2jpg} />
           <Card.Body>
             <Card.Title>
-              {props.Title}
+            Algumas Caracteristicas!
             </Card.Title>
             <Card.Text>
-              {props.Description}
+            Sou um garoto desenvolvedor que esta entrando nessa área a pouco
+          tempo. estudo dev. web desde 24/03/22, e domino o básico de HTML,
+          CSS, JavaScript, React, Bootstrap e Sass. Estudo diariamente para
+          se tornar um dev melhor, eu acredito que conseguindo um emprego
+          como dev será muito desafiador e também ira me trazer muito mais
+          aprendizado. Seria um prazer trabalhar com você ou para você!
+          Entre em Contato comigo para conversar sobre.
               <br/>
-              <a href="Contato">{props.LinkMessage}</a>
+              <a class="text-decoration-none text-warning" href="Contato">Click aqui!</a>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
