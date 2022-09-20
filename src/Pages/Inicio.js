@@ -74,9 +74,50 @@ export default function Inicio() {
         </nav>
       </div>
       <div className="d-flex flex-direction-between justify-content-around flex-wrap">
-        <div className="my-3 order-xl-1"><Perfil /></div>
-        <div className="my-3 order-last order-xl-2"><Features /></div>
-        <div className="my-3 order-xl-2"><AboutMe/></div>
+        <div className="my-3 order-xl-1">
+
+
+          
+          <Perfil
+          Name="Glaucio Castilho"
+          Description=
+              "Desde o primeiro contato com o desenvolvimento web eu me
+              apaixonei, e desde então eu estudo diariamente para melhorar meu
+              aprendizado e assim conseguir meu primeiro emprego como
+              desenvolvedor web."
+          />
+        </div>
+        <div className="my-3 order-last order-xl-2">
+
+
+
+
+          <Features 
+          Name="Glaucio Castilho"
+          NameDescription="Dev Web"
+          Description="Localidades"
+          SubDescription="Ainda irei editar esta parte!"
+          />
+          </div>
+        <div className="my-3 order-xl-2">
+
+
+
+          <AboutMe
+          Title="Algumas Caracteristicas!"
+          Description=
+          "Sou um garoto desenvolvedor que esta entrando nessa área a pouco
+          tempo. estudo dev. web desde 24/03/22, e domino o básico de HTML,
+          CSS, JavaScript, React, Bootstrap e Sass. Estudo diariamente para
+          se tornar um dev melhor, eu acredito que conseguindo um emprego
+          como dev será muito desafiador e também ira me trazer muito mais
+          aprendizado. Seria um prazer trabalhar com você ou para você!
+          Entre em Contato comigo para conversar sobre. "
+          LinkMessage="Click aqui!"
+          />
+
+
+        </div>
       </div>
     </Fragment>
   );

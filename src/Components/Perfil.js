@@ -10,21 +10,20 @@ import { FaReact } from "react-icons/fa";
 import { SiJavascript, SiCss3 } from "react-icons/si";
 import { IoLogoHtml5 } from "react-icons/io";
 
-export default function Perfil() {
+export default function Perfil(props) {
   return (
     <Fragment>
       <div>
         <Card border="primary" style={{ width: "18rem" }}>
           <Card.Img variant="top" src={Perfilpng} />
           <Card.Body>
-            <Card.Title><Badge className="fs-3"bg="dark">Glaucio Castilho</Badge>
+            <Card.Title><Badge className="fs-3"bg="dark">
+              {props.Name}
+            </Badge>
             </Card.Title>
             <Card.Text class="text-start">
               <p className="fw-semibold">
-              Desde o primeiro contato com o desenvolvimento web eu me
-              apaixonei, e desde então eu estudo diariamente para melhorar meu
-              aprendizado e assim conseguir meu primeiro emprego como
-              desenvolvedor web.
+                {props.Description}
               </p>
             </Card.Text>
             <div>

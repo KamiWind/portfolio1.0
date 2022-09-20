@@ -8,7 +8,7 @@ import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
 import Col from "react-bootstrap/Col";
 
-export default function Features() {
+export default function Features(props) {
   return (
     <div>
       <div class="card text-center w-100">
@@ -22,8 +22,10 @@ export default function Features() {
             />
             <Badge bg="dark">
               <div class="text-start">
-                <p class="fs-6 fw-lighter">Glaucio Castilho</p>
-                Web Developer <BsCodeSlash/>
+                <p class="fs-6 fw-lighter">
+                  {props.Name}
+                </p>
+                {props.NameDescription} <BsCodeSlash/>
               </div>
             </Badge>
           </div>
@@ -37,10 +39,11 @@ export default function Features() {
           </div>
         </div>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
+          <h5 class="card-title">
+            {props.Description}
+          </h5>
           <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
+            {props.SubDescription}
           </p>
           <a href="Contato" class="btn btn-primary">
             Contato
