@@ -24,6 +24,7 @@ export default function Features() {
               <a
                 class="text-decoration-none"
                 href="https://www.instagram.com/glauciocastilho1/"
+                target="_blank"
               >
                 <SiInstagram /> Instagram
               </a>
@@ -31,6 +32,7 @@ export default function Features() {
               <a
                 class="text-decoration-none"
                 href="https://www.linkedin.com/in/glaucio-castilho-361505242/"
+                target="_blank"
               >
                 <SiLinkedin /> LinkedIn
               </a>
@@ -38,6 +40,7 @@ export default function Features() {
               <a
                 class="text-decoration-none"
                 href="https://github.com/KamiWind"
+                target="_blank"
               >
                 <SiGithub /> Github
               </a>
