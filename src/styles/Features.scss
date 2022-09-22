@@ -30,14 +30,14 @@
                 margin-top: 5%;
                 text-align: start;
                 color: rgb(0, 0, 0);
-                font-size: 100%;
+                font-size: 90%;
                 text-shadow: rgb(109, 109, 109) 2px 2px 5px;
                 font-family: 'Cookie', cursive;
             }
             p{
                 text-align: start;
                 color: rgb(0, 0, 0);
-                font-size: 90%;
+                font-size: 80%;
                 text-shadow: rgb(109, 109, 109) 2px 2px 5px;
                 font-family: cursive;
             }
@@ -52,7 +52,7 @@
             border-bottom: 1px solid black;
             #Redes{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 a{
                     color: rgb(0, 0, 0);
                     font-size: 75%;
@@ -416,10 +416,11 @@
             border-bottom: 1px solid black;
             #Redes{
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
+                gap: 5px;
                 a{
                     color: rgb(0, 0, 0);
-                    font-size: 90%;
+                    font-size: 100%;
                     transition: 0.5s;
                 }
                 a:hover{
