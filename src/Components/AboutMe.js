@@ -23,7 +23,7 @@ export default function AboutMe(props) {
           aprendizado. Seria um prazer trabalhar com você ou para você!
           Entre em Contato comigo para conversar sobre.
               <br/>
-              <a class="text-decoration-none text-warning" href="Contato">Click aqui!</a>
+              <a class="text-decoration-none text-danger" href="Contato">Click aqui!</a>
             </Card.Text>
           </Card.Body>
           <Card.Footer>

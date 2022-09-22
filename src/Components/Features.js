@@ -1,59 +1,64 @@
-import React from "react";
+import { React, Fragment } from "react";
 import Perfilpng from "../Images/Perfil.webp";
-
-import { BsInstagram, BsCodeSlash } from "react-icons/bs"
-import { GrLinkedin, GrMap } from "react-icons/gr"
+import "../styles/Features.scss";
 
 import Card from "react-bootstrap/Card";
-import Badge from "react-bootstrap/Badge";
 
+import { IoLogoHtml5 } from "react-icons/io";
+import { SiInstagram, SiLinkedin, SiGithub } from "react-icons/si";
 
 export default function Features() {
   return (
-    <div>
-      <div class="card text-center w-100">
-        <div class="card-header d-flex justify-content-start">
-          <div class="border-end w-50 d-flex justify-content-around align-items-center">
-            <Card.Img
-              class="rounded-circle"
-              variant="top"
-              style={{ width: "5rem" }}
-              src={Perfilpng}
-            />
-            <Badge bg="dark">
-              <div class="text-start">
-                <p class="fs-6 fw-lighter">
-                Glaucio Castilho
-                </p>
-                Dev Web <BsCodeSlash/>
-              </div>
-            </Badge>
+    <Fragment>
+      <div id="Features">
+        <div id="FeaturesFlex">
+          <div id="FeaturesHeader">
+            <img src={Perfilpng} />
+            <div>
+              <h1>Glaucio Castilho</h1>
+              <p>Dev. Web</p>
+            </div>
           </div>
-          <div class=" w-50 d-flex justify-content-around align-items-center">
-          <Badge bg="dark text-start p-2">
-            <a class="bg-transparent text-decoration-none fw-semibold fs-6" href="https://www.instagram.com/glauciocastilho1/" target="_blank"><BsInstagram/> Instagram</a>
-            <br/>
-            <br/>
-            <a class="bg-transparent text-decoration-none fw-semibold fs-6" href="https://www.linkedin.com/in/glaucio-castilho-361505242/" target="_blank"><GrLinkedin/> LinkedIn</a>
-          </Badge>
+          <div id="FeaturesSubHeader">
+            <div id="Redes">
+              <a
+                class="text-decoration-none"
+                href="https://www.instagram.com/glauciocastilho1/"
+              >
+                <SiInstagram /> Instagram
+              </a>
+              <br />
+              <a
+                class="text-decoration-none"
+                href="https://www.linkedin.com/in/glaucio-castilho-361505242/"
+              >
+                <SiLinkedin /> LinkedIn
+              </a>
+              <br />
+              <a
+                class="text-decoration-none"
+                href="https://github.com/KamiWind"
+              >
+                <SiGithub /> Github
+              </a>
+            </div>
           </div>
         </div>
-        <div class="card-body w-100">
-          <h5 class="card-title">
-          Destaque
-          </h5>
-          <p class="card-text">
-          Digite uma descrição aqui! Digite uma descrição aqui! Digite uma descrição aqui!
-            Digite uma descrição aqui! Digite uma descrição aqui! Digite uma descrição aqui!
-            Digite uma descrição aqui! Digite uma descrição aqui! Digite uma descrição aqui!
-            Digite uma descrição aqui! Digite uma descrição aqui! Digite uma descrição aqui!
-          </p>
-          <a href="Contato" class="btn btn-primary">
-            Contato
-          </a>
+        <div id="Description">
+          What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book. It has survived
+          not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in
+          the 1960s with the release of Letraset sheets containing Lorem Ipsum
+          passages, and more recently with desktop publishing software like
+          Aldus PageMaker including versions of Lorem Ipsum.
         </div>
-        <div class="card-footer text-muted">Ultima atualização 18/09/22</div>
+        <div id="LastUpdate">
+        <small className="text-muted">Ultima atualização 16/09/22</small>
+        </div>
       </div>
-    </div>
+    </Fragment>
   );
 }
