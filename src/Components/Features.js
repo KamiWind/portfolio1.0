@@ -45,18 +45,19 @@ export default function Features() {
           </div>
         </div>
         <div id="Description">
-          What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to make a type specimen book. It has survived
-          not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in
-          the 1960s with the release of Letraset sheets containing Lorem Ipsum
-          passages, and more recently with desktop publishing software like
-          Aldus PageMaker including versions of Lorem Ipsum.
+          <h1>Saiba mais sobre mim!</h1>
+            <p className="fw-semibold">
+            Idade: 26 Ano(s) Estado civil: Solteiro Cor: Pardo Sexo: Masculino
+            <br/>
+            Nacionalidade: Brasileiro Naturalidade: Rio de Janeiro (Carioca)
+            <br/>
+            Resido Atualmente: Nova Iguaçú-RJ
+            <br/>
+            <strong className="fw-semibold">Obs: Estou disposto a Jobs presencial e/ou home office.</strong>
+            </p>
         </div>
         <div id="LastUpdate">
-        <small className="text-muted">Ultima atualização 16/09/22</small>
+          <small className="text-muted">Ultima atualização 16/09/22</small>
         </div>
       </div>
     </Fragment>
