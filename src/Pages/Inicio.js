@@ -13,7 +13,7 @@ export default function Inicio() {
   return (
     <Fragment>
       <div>
-        <nav class="navbar navbar-dark bg-dark d-flex justify-content-center">
+        <nav class="navbar navbar-dark bg-dark d-flex justify-content-center w-100">
           <ul class="nav nav-pills">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/">
@@ -70,17 +70,7 @@ export default function Inicio() {
           </ul>
         </nav>
       </div>
-      <div id="Flex">
-        <div id="Flex1">
-          <Perfil/>
-        </div>
-        <div id="Flex2">
-          <Features/>
-        </div>
-        <div id="Flex3">
-          <AboutMe/>
-        </div>
-      </div>
+      <Features/>
     </Fragment>
   );
 }
